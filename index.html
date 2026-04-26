@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Courier Express - Tracking Compleanno</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+</head>
+<body class="min-h-screen">
+    <div class="page-shell">
+        <div class="background-mesh"></div>
+        <div class="ambient-orb orb-one"></div>
+        <div class="ambient-orb orb-two"></div>
+        <div class="ambient-grid"></div>
+
+        <header class="site-header">
+            <div class="site-header__inner">
+                <div>
+                    <div class="eyebrow">Express Tracking Suite</div>
+                    <div class="logo">JR<span>COURIER</span></div>
+                </div>
+                <div class="header-chip">Servizio Tracking Ufficiale</div>
+            </div>
+        </header>
+
+        <main class="container">
+            <section id="hero" class="hero-panel fade-in">
+                <div class="hero-panel__glow"></div>
+                <div class="hero-copy">
+                    <h1>Buon compleanno Giù, segui il tuo pacco</h1>
+                    <p class="hero-body">Inserisci il codice di tracking ricevuto per seguire il tuo pacco</p>
+                </div>
+
+                <div class="hero-form">
+                    <div class="tracking-input-group">
+                        <input type="text" id="track-input" placeholder="Es: AUGURI2026" autofocus>
+                        <button id="track-btn">Traccia Pacco</button>
+                    </div>
+                    <p id="input-feedback" class="input-feedback" aria-live="polite"></p>
+                    <p class="hero-hint">Suggerimento: prova con il codice magico.</p>
+                </div>
+            </section>
+
+            <section id="tracking-view" class="tracking-layout" style="display: none;">
+                <div class="tracking-summary fade-in">
+                    <div>
+                        <p class="summary-label">Tracking ID</p>
+                        <h2 id="display-code">AUGURI2026</h2>
+                    </div>
+                    <div class="summary-meta">
+                        <span id="shipment-badge" class="shipment-badge">SPEDIZIONE IN CORSO</span>
+                        <button id="reset-btn" class="secondary-btn" type="button">NUOVA RICERCA</button>
+                    </div>
+                </div>
+
+                <section class="progress-panel fade-in">
+                    <div class="panel-heading">
+                        <div>
+                            <p class="summary-label">Delivery Journey</p>
+                            <h3>Stato della spedizione</h3>
+                        </div>
+                        <p class="panel-note">Ogni tappa racconta un piccolo disastro logistico con ottima presentazione.</p>
+                    </div>
+
+                    <div id="stepper" class="stepper">
+                        <div id="progress-bar" class="step-progress" style="width: 0%;"></div>
+                    </div>
+
+                </section>
+
+                <section class="status-log fade-in" id="status-log">
+                    <!-- Data will be injected here -->
+                </section>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
