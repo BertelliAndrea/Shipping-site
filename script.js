@@ -1,6 +1,6 @@
 (function() {
   const TRACKING_CODE = 'GIU28APR2026';
-  const TODAY = new Date("2026-05-01"); // Simula la data attuale (formato: anno, mese - 1, giorno)
+  const TODAY = new Date(); // Simula la data attuale (formato: anno, mese - 1, giorno)
   const ENCODED_TRACKING_CHUNKS = [
     'W3siZGF0ZSI6IjIwMjYtMDQtMjgiLCJ0aXRsZSI6IlByZXNhIGluIGNhcmljbyBkYWxsYSBGcmFuY2lhIiwiZGVzY3JpcHRpb24i',
     'OiJJbCBjb3JyaWVyZSBoYSBwcmVzbyBpbiBjYXJpY28gbGEgc3BlZGl6aW9uZSBpbiBGcmFuY2lhLiBTcGVyaWFtbyBub24gbGEg',
