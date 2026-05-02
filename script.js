@@ -137,7 +137,7 @@
     const { view, hero, log, progressBar, stepper, badge, displayCode } = elements;
     const now = TODAY instanceof Date ? TODAY : new Date(TODAY);
     const visibleUpdates = TRACKING_DATA
-      .filter((item) => new Date(item.date) <= now)
+      .filter((item) => new Date(`${item.date}T00:00:00`) <= now)
       .sort((first, second) => new Date(second.date) - new Date(first.date));
 
     hero.style.display = 'none';
