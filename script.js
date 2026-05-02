@@ -30,15 +30,17 @@
     'dXR0bywgc2kgw6ggcGVyZmlubyBwZXJzbyBpbiB1bmEgbmViYmlhIHN0cmFvcmRpbmFyaWEgdHJhIGkgcGFlc2luaSBkaSBjYW1w',
     'YWduYSwgY2hpZWRlbmRvIGluZGljYXppb25pIGEgdW4gY29udGFkaW5vIGNoZSBub24gaGEgYW5jb3JhIGNhcGl0byBkb3ZlIHZv',
     'bGVzc2UgYW5kYXJlIGRhdnZlcm8uIiwidGhlbWUiOiJ2ciJ9LHsiZGF0ZSI6IjIwMjYtMDUtMDMiLCJ0aXRsZSI6IkNvbnNlZ25h',
-    'IGEgRmVycmFyYSIsImRlc2NyaXB0aW9uIjoiU2UgdHUgdmllbmksIHBlciBlc2VtcGlvLCB0dXR0aSBpIHBvbWVyaWdnaSwgYWxs',
-    'ZSBxdWF0dHJvIGUgbWV6emEsIGFsbGEgZ2VsYXRlcmlhIGRlaSBCYWx1YXJkaSwgZGFsbGUgcXVhdHRybyBpbyBjb21pbmNlcsOy',
-    'IGFkIGVzc2VyZSBmZWxpY2UuIENvbCBwYXNzYXJlIGRlaSBtaW51dGkgY3Jlc2NlcsOgIGxhIG1pYSBhdHRlc2EsIGNvbWUgaWwg',
-    'cHJvZnVtbyBkZWkgY29uaSBhcHBlbmEgcmllbXBpdGkuIFF1YW5kbyBzYXJhbm5vIGxlIHF1YXR0cm8gZSBtZXp6YSwgaW5jb21p',
-    'bmNlcsOyIGFkIGFnaXRhcm1pIGUgYWQgaW5xdWlldGFybWk7IHNjZWdsaWVyw7IgaWwgZ3VzdG8gY29uIGN1cmEsIHBlcmNow6kg',
-    'b2duaSBzYXBvcmUgcGFybGVyw6AgdW4gcG/igJkgZGkgbm9pLCBlIHNjb3ByaXLDsiBpbCBwcmV6em8gZGVsbGEgZmVsaWNpdMOg',
-    'IGluIHVuYSBjb3BwZXR0YSBjaGUgc2kgc2Npb2dsaWUgcGlhbm8uXG5cbk1hIHNlIHR1IHZpZW5pIG5vbiBzaSBzYSBxdWFuZG8s',
-    'IGlvIG5vbiBzYXByw7IgbWFpIGEgY2hlIG9yYSBwcmVwYXJhcm1pIGlsIGN1b3Jl4oCmIG7DqSBxdWFsZSBnZWxhdG8gc2NlZ2xp',
-    'ZXJlIHBlciBhc3BldHRhcnRpLiIsInRoZW1lIjoiZmVycmFyYSJ9XQ=='
+    'IGEgRmVycmFyYSIsImRlc2NyaXB0aW9uIjoiSWwgY29ycmllcmUgaGEgcmljZXZ1dG8gbGEgcmljaGllc3RhIGRpIG1vZGlmaWNh',
+    'IGRlbGwnb3JhcmlvIGRpIGNvbnNlZ25hIGRhIHBhcnRlIGRlbCBjbGllbnRlIGUgaGEgcXVpbmRpIHJpcHJvZ3JhbW1hdG8gbGEg',
+    'c3BlZGl6aW9uZSwgcG9zaXppb25hbmRvIGlsIHBhY2NvIGNvbWUgdWx0aW1hIGNvbnNlZ25hIGRlbGxhIGdpb3JuYXRhLiBUdXR0',
+    'YXZpYSwgZHVyYW50ZSBpbCB0cmFnaXR0byBpbCBjYW1pb24gaGEgc3ViaXRvIHVuIGltcHJldmlzdG8gdGVjbmljbyBkb3Z1dG8g',
+    'YWxsYSBiYXR0ZXJpYSBjb21wbGV0YW1lbnRlIHNjYXJpY2EsIGNvc3RyaW5nZW5kbyBpbCBjb25kdWNlbnRlIGEgdW5hIHNvc3Rh',
+    'IGZvcnphdGEuXG5cblBlciBnYXJhbnRpcmUgY29tdW5xdWUgbGEgY29uc2VnbmEsIGlsIGNvcnJpZXJlIGhhIHByb3NlZ3VpdG8g',
+    'aWwgdmlhZ2dpbyB2ZXJzbyBGZXJyYXJhIGEgYm9yZG8gZGVsbGEgYmFyY2EgTmVuYSwgYWRvdHRhbmRvIHVuYSBzb2x1emlvbmUg',
+    'YWx0ZXJuYXRpdmEgdGFudG8gZWZmaWNhY2UgcXVhbnRvIGluc29saXRhLlxuXG5JbCBjb3JyaWVyZSB0aSBhc3BldHRlcsOgIHZl',
+    'cnNvIGxlIDE3OjMwIGFsIGJhciBpbiBEYXJzZW5hLCB0cmFucXVpbGxhbWVudGUgc2VkdXRvIG1lbnRyZSBzb3JzZWdnaWEgdW4g',
+    'ZHJpbmssIHByb250byBhIGNvbnNlZ25hcnRpIGlsIHBhY2NvIGNvbiBsYSBtYXNzaW1hIGNhbG1hIGUgc3RpbGUuIiwidGhlbWUi',
+    'OiJmZXJyYXJhIn1d'
   ];
   const TRACKING_DATA = JSON.parse(decodePayload(ENCODED_TRACKING_CHUNKS.join('')));
   const VIDEO_MAP = {
@@ -46,7 +48,8 @@
     '2026-04-29': 'assets/Tappa 2 - dipendenti addormentati.mp4',
     '2026-04-30': 'assets/Tappa 3.mp4',
     '2026-05-01': 'assets/Tappa 4.mp4',
-    '2026-05-02': 'assets/Tappa 5.mp4'
+    '2026-05-02': 'assets/Tappa 5.mp4',
+    '2026-05-03': 'assets/Tappa 6.mp4'
   };
   const ACTION_VIDEO_MAP = {
     '2026-04-29': 'assets/Dipendenti svegliati.mp4'
